@@ -1,0 +1,68 @@
+version = 1
+requires-python = ">=3.12"
+
+[[package]]
+name = "adcal2024"
+version = "0.1.0"
+source = { virtual = "." }
+dependencies = [
+    { name = "setuptools" },
+    { name = "solidpython" },
+]
+
+[package.metadata]
+requires-dist = [
+    { name = "setuptools", specifier = ">=75.6.0" },
+    { name = "solidpython", specifier = ">=1.1.3" },
+]
+
+[[package]]
+name = "euclid3"
+version = "0.1"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/fc/d2/80730bee6b51f2a0faacaec51abb919f144c8b1fff5907fe019ec0e95698/euclid3-0.01.tar.gz", hash = "sha256:25b827a57adbfd9a3fa8625e43abc3e907f61de622343e7e538482ef9b46fd0b", size = 13201 }
+
+[[package]]
+name = "ply"
+version = "3.11"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/e5/69/882ee5c9d017149285cab114ebeab373308ef0f874fcdac9beb90e0ac4da/ply-3.11.tar.gz", hash = "sha256:00c7c1aaa88358b9c765b6d3000c6eec0ba42abca5351b095321aef446081da3", size = 159130 }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/a3/58/35da89ee790598a0700ea49b2a66594140f44dec458c07e8e3d4979137fc/ply-3.11-py2.py3-none-any.whl", hash = "sha256:096f9b8350b65ebd2fd1346b12452efe5b9607f7482813ffca50c22722a807ce", size = 49567 },
+]
+
+[[package]]
+name = "prettytable"
+version = "0.7.2"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/ef/30/4b0746848746ed5941f052479e7c23d2b56d174b82f4fd34a25e389831f5/prettytable-0.7.2.tar.bz2", hash = "sha256:853c116513625c738dc3ce1aee148b5b5757a86727e67eff6502c7ca59d43c36", size = 21755 }
+
+[[package]]
+name = "pypng"
+version = "0.0.19"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/0e/39/993a5feea8ed9c2eebd70c6e7c20cb4b0823588f5ab0afab4b0be95ebc23/pypng-0.0.19.tar.gz", hash = "sha256:3145d042947fa8121e6bd5a7e59149871bf8c13675c42371e12977499d7f3926", size = 293055 }
+
+[[package]]
+name = "setuptools"
+version = "75.6.0"
+source = { registry = "https://pypi.org/simple" }
+sdist = { url = "https://files.pythonhosted.org/packages/43/54/292f26c208734e9a7f067aea4a7e282c080750c4546559b58e2e45413ca0/setuptools-75.6.0.tar.gz", hash = "sha256:8199222558df7c86216af4f84c30e9b34a61d8ba19366cc914424cdbd28252f6", size = 1337429 }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/55/21/47d163f615df1d30c094f6c8bbb353619274edccf0327b185cc2493c2c33/setuptools-75.6.0-py3-none-any.whl", hash = "sha256:ce74b49e8f7110f9bf04883b730f4765b774ef3ef28f722cce7c273d253aaf7d", size = 1224032 },
+]
+
+[[package]]
+name = "solidpython"
+version = "1.1.3"
+source = { registry = "https://pypi.org/simple" }
+dependencies = [
+    { name = "euclid3" },
+    { name = "ply" },
+    { name = "prettytable" },
+    { name = "pypng" },
+]
+sdist = { url = "https://files.pythonhosted.org/packages/55/53/ce81219744e28efec7ab34e104646877e866bad0d3d6dbeb71ecb5577665/solidpython-1.1.3.tar.gz", hash = "sha256:1a01f99aca802fda0a8f2057dbd9a7bf2ed7b01e225faf5498f93b337bc412c8", size = 2571639 }
+wheels = [
+    { url = "https://files.pythonhosted.org/packages/d4/88/93157eec55fd91dd78e9b1ef1ba0539c112f8a4499a714f9bc489ce0df0c/solidpython-1.1.3-py3-none-any.whl", hash = "sha256:062899ba8aef3e3e69376d4cd106de6cfc759002a97b78b9a72d7ee92b7d8b96", size = 2653838 },
+]
